@@ -1,0 +1,194 @@
+<img id="brand" src="../../assets/items/images-05.png" alt="" >
+<img id="home" src="../../assets/items/images-09.png" alt="" routerLink="/" >
+<img *ngIf="showSecond" (click)="goBack()" id="album" src="../../assets/items/images-10.png" alt=""  >
+<img id="below" src="../../assets/items/images-08.png" alt=""  >
+<img id="nexticon" *ngIf="!showSecond" src="../../assets/items/images-12.png" alt="" (click)="goToNextGrid()" >
+<img id="backicon" *ngIf="!showSecond"src="../../assets/items/images-11.png" alt="" (click)="goToBackGrid()" >
+
+
+<div id="grid"  *ngIf="showFirst">
+  <div class="container" *ngIf="gridOne" >
+    <div class="row">
+      <div  (click)="goToBig(1)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/1.JPG" class="d-block w-100" >
+      </div>
+      <div  (click)="goToBig(2)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/2.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(3)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/3.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(4)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/4.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+    <div class="row">
+      <div (click)="goToBig(5)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/5.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(6)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/6.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(7)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/7.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(8)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/8.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+    <div class="row">
+      <div (click)="goToBig(9)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/9.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(10)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/10.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(11)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/11.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(12)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/12.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+    <div class="row">
+      <div  (click)="goToBig(13)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/13.JPG" class="d-block w-100" >
+      </div>
+      <div (click)="goToBig(14)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/14.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(15)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/15.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(16)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/16.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+  </div>
+
+  <div class="container" *ngIf="gridTwo" >
+    <div class="row">
+      <div  (click)="goToBig(17)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/17.JPG" class="d-block w-100" >
+      </div>
+      <div (click)="goToBig(18)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/18.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(19)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/19.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(20)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/20.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+    <div class="row">
+      <div (click)="goToBig(21)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/21.JPG" class="d-block w-100"  >
+      </div>
+      <div  (click)="goToBig(22)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/22.JPG" class="d-block w-100" >
+      </div>
+      <div (click)="goToBig(23)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/23.JPG" class="d-block w-100"  >
+      </div>
+      <div  (click)="goToBig(24)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/24.JPG" class="d-block w-100" >
+      </div>
+    </div>
+    <div class="row">
+      <div (click)="goToBig(25)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/25.JPG" class="d-block w-100"  >
+      </div>
+      <div (click)="goToBig(26)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/26.JPG" class="d-block w-100"  >
+      </div>
+      <div  (click)="goToBig(27)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/27.JPG" class="d-block w-100" >
+      </div>
+      <div (click)="goToBig(28)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/28.JPG" class="d-block w-100"  >
+      </div>
+    </div>
+    <div class="row">
+      <div (click)="goToBig(29)">
+        <img id="img" src="../../assets/3. BLR Airport in 2008/29.JPG" class="d-block w-100"  >
+      </div>
+      <!-- <div >
+        <img id="img" src="../../assets/3. BLR Airport in 2008/30.JPG" class="d-block w-100"  (click)="goToBig(14)">
+      </div>
+      <div >
+        <img id="img" src="../../assets/3. BLR Airport in 2008/31.JPG" class="d-block w-100"  (click)="goToBig(15)">
+      </div>
+      <div >
+        <img id="img" src="../../assets/3. BLR Airport in 2008/32.JPG" class="d-block w-100"  (click)="goToBig(16)">
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<!-- <img id="one" src="../../assets/items/images-11.png" alt="">
+<img id="two" src="../../assets/items/images-12.png" alt=""> -->
+
+<img id="icon2" src="../../assets/items/images-14.png" alt=""    (click)="show()" *ngIf="showSecond">
+
+<!-- <button id="back"(click)="goPrevious()"  *ngIf="showSecond">&#60;</button> -->
+<img id="back" *ngIf="showSecond"src="../../assets/items/images-11.png" alt="" (click)="goPrevious()" >
+
+<!-- <button id="next" (click)="goNext()"  *ngIf="showSecond">&#62;</button> -->
+<img id="next" *ngIf="showSecond" src="../../assets/items/images-12.png" alt="" (click)="goNext()" >
+
+<section  *ngIf="showSecond">
+  <img id="img" src="../../assets/3. BLR Airport in 2008/{{numb}}.JPG" class="d-block w-100" alt="...">
+</section>
+
+<div class="scroll-container"  *ngIf="showSecond">
+  <img id="main" src="../../assets/3. BLR Airport in 2008/1.JPG"  (click)="sendId(1)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/2.JPG"  (click)="sendId(2)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/3.JPG"  (click)="sendId(3)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/4.JPG"  (click)="sendId(4)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/5.JPG"  (click)="sendId(5)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/6.JPG"  (click)="sendId(6)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/7.JPG"  (click)="sendId(7)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/8.JPG"  (click)="sendId(8)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/9.JPG"  (click)="sendId(9)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/10.JPG"  (click)="sendId(10)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/11.JPG"  (click)="sendId(11)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/12.JPG"  (click)="sendId(12)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/13.JPG"  (click)="sendId(13)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/14.JPG"  (click)="sendId(14)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/15.JPG"  (click)="sendId(15)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/16.JPG"  (click)="sendId(16)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/17.JPG"  (click)="sendId(17)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/18.JPG"  (click)="sendId(18)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/19.JPG"  (click)="sendId(19)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/20.JPG"  (click)="sendId(20)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/21.JPG"  (click)="sendId(21)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/22.JPG"  (click)="sendId(22)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/23.JPG"  (click)="sendId(23)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/24.JPG"  (click)="sendId(24)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/25.JPG"  (click)="sendId(25)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/26.JPG"  (click)="sendId(26)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/27.JPG"  (click)="sendId(27)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/28.JPG"  (click)="sendId(28)" >
+  <img id="main" src="../../assets/3. BLR Airport in 2008/29.JPG"  (click)="sendId(29)" >
+  
+</div>
+
+
+<img id="icon" src="../../assets/items/images-13.png" alt="" style="z-index: 4000;" *ngIf="isShow" (click)="backToAlbum()">
+<div id="carouselExampleFade" class="carousel slide carousel-fade"style="z-index: 3000;"*ngIf="isShow" >
+  <div class="carousel-inner">
+    <div class="carousel-item active" *ngIf="isShow" >
+      <img id="mainImg"  src="../../assets/3. BLR Airport in 2008/{{numb}}.JPG"  alt="...">
+    </div>
+  </div>  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" (click)="goPrevious()" ></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"(click)="goNext()"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+

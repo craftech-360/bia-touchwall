@@ -1,0 +1,149 @@
+#main{
+    width: 200px;
+    height: 150px;
+}
+#grid{
+    width: 70%;
+    height: 60%;
+    margin-left: 3%;
+    margin-top: 15%;
+    padding: 30px;
+    z-index: 2000;
+}
+.row > div{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+}
+#icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    width: 50px;
+    z-index: 3000;
+}
+#icon2{
+    position: absolute;
+    top: 64%;
+    left: 55%;
+    width: 50px;
+    z-index: 3000;
+}
+.carousel-control-prev-icon 
+{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.carousel-control-next-icon 
+{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+section{
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    width: 50%;
+    height: 60%;
+    z-index: 1000;
+}
+
+
+#brand{
+    width: 400px;
+    position: absolute;
+    margin: 70px 100px 0 0;
+    top: 0;
+    right: 0;
+}
+#home{
+    width: 350px;
+    position: absolute;
+    right: 8%;
+    top: 43%;
+    z-index: 2000;
+}
+#album{
+    width: 350px;
+    position: absolute;
+    right: 8%;
+    top: 55%;
+    z-index: 2000;
+}
+#below{
+    width: 100%;
+    position: absolute;
+    bottom: -3%;
+    z-index: 1000;
+}
+#nexticon{
+    top: 45%;
+    left: 65%;
+    width: 50px;
+    position: absolute;
+    z-index: 1000;
+}
+#backicon{
+    top: 45%;
+    left: 1%;
+    width: 50px;
+    position: absolute;
+    z-index: 1000;
+}
+#next{
+    top: 35%;
+    left: 61%;
+    width: 40px;
+    position: absolute;
+    z-index: 1000;
+}
+#back{
+    top: 35%;
+    left: 3%;
+    width: 40px;
+    position: absolute;
+    z-index: 1000;
+}
+.scroll-container {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    width: 60%;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    z-index: 2000;
+
+}
+  
+.scroll-container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.scroll-container img {
+    padding: 10px;
+  }
+
+  .row > div {
+    z-index: 3000;
+  }
+
+  #mainImg{
+    object-fit: cover;
+    width: 90%;
+    height: 40%;
+    margin-left: 5%;
+  }
+  .carousel-inner{
+    background-color: #12294B;
+  }
